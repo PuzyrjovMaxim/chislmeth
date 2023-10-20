@@ -54,28 +54,22 @@ int main() {
 	}
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
-			t1[i][j] = t2[j][i];
+			t2[i][j] = t1[j][i];
 		}
 	}
 	for (int i = 0; i < n; i++) {
 		double sum = 0;
-		for (int j = 0; j < n; j++) {
-			if (j < i) {
-				sum += t2[i][j] * y[j];
-			}
-			else if(i==j) y[i] = (b[i] - sum) / t2[i][i];
+		for (int j = 0; j < i; j++) {
+			sum += t2[i][j] * y[j];
 		}
+		y[i] = (b[i] - sum) / t2[i][i];
 	}
-	for (int i = n-1; i <=0; i++) {
+	for (int i = n-1; i >=0; i--) {
 		double sum = 0;
-		for (int j = n-1; j <= 0; j++) {
-			if (i == j) {
-				x[i] = (y[i] - sum) / t1[i][i];
-			}
-			else if (i < j) {
-				sum += t1[i][j] * x[j];
-			}
+		for (int j = n-1; j > i; j--) {
+			sum += t1[i][j] * x[j];
 		}
+		x[i] = (y[i] - sum) / t1[i][i];
 	}
 	for (int i = 0; i < n; i++) {
 		fout << x[i] << "; ";
