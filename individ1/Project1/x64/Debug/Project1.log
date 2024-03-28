@@ -1,0 +1,5 @@
+﻿  FileName.cpp
+D:\численные методы\individ1\Project1\FileName.cpp(83,50): warning C4305: инициализация: усечение из "double" в "float"
+D:\численные методы\individ1\Project1\FileName.cpp(99,29): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\численные методы\individ1\Project1\FileName.cpp(12,18): warning C4101: k: неиспользованная локальная переменная
+  Project1.vcxproj -> D:\численные методы\individ1\Project1\x64\Debug\Project1.exe
