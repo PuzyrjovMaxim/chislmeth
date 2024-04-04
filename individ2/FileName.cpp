@@ -5,11 +5,11 @@
 using namespace std;
 
 double f(double x, double y) {
-	return -2 * x;
+	return -2 * y;
 }
 
 double func(double x) {
-	return -x*x;
+	return exp(-2*x);
 }
 
 int main() {
