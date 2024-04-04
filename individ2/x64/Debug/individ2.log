@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+D:\study\численные методы\individ2\FileName.cpp(21,12): warning C4101: j: неиспользованная локальная переменная
+  individ2.vcxproj -> D:\study\численные методы\individ2\x64\Debug\individ2.exe
