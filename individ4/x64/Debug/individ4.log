@@ -1,0 +1,7 @@
+﻿  FileName.cpp
+D:\study\численные методы\individ4\FileName.cpp(39,7): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+D:\study\численные методы\individ4\FileName.cpp(28,27): warning C4101: k2: неиспользованная локальная переменная
+D:\study\численные методы\individ4\FileName.cpp(28,35): warning C4101: k4: неиспользованная локальная переменная
+D:\study\численные методы\individ4\FileName.cpp(28,23): warning C4101: k1: неиспользованная локальная переменная
+D:\study\численные методы\individ4\FileName.cpp(28,31): warning C4101: k3: неиспользованная локальная переменная
+  individ4.vcxproj -> D:\study\численные методы\individ4\x64\Debug\individ4.exe
