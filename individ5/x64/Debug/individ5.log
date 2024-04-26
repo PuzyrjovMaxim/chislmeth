@@ -1,0 +1,7 @@
+﻿  FileName.cpp
+D:\study\численные методы\individ5\FileName.cpp(16,20): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\study\численные методы\individ5\FileName.cpp(18,23): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\study\численные методы\individ5\FileName.cpp(24,31): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\study\численные методы\individ5\FileName.cpp(25,31): warning C4244: инициализация: преобразование "double" в "size_t", возможна потеря данных
+D:\study\численные методы\individ5\FileName.cpp(13,9): warning C4101: k: неиспользованная локальная переменная
+  individ5.vcxproj -> D:\study\численные методы\individ5\x64\Debug\individ5.exe
